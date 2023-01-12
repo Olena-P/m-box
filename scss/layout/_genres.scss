@@ -1,0 +1,123 @@
+.genres {
+  .container {
+    padding: 30px 0;
+
+    .genres-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 27px;
+
+      .genres-list-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 340px;
+        height: 198px;
+        border-radius: 20px;
+
+        &.romance {
+          background: linear-gradient(109.31deg, #fd093f 2.4%, #f383f1 100%);
+        }
+        &.drama {
+          background: linear-gradient(114.5deg, #0fffda 2.22%, #3cdb77 68.84%);
+        }
+        &.historical {
+          background: linear-gradient(109.31deg, #b936ff 2.4%, #57deda 100%);
+        }
+        &.action {
+          background: linear-gradient(
+            109.31deg,
+            #fd093f 2.4%,
+            #fb1378 2.41%,
+            #fccb1a 100%
+          );
+        }
+        &.sci-fi {
+          background: linear-gradient(109.31deg, #ff6472 2.4%, #fda75d 100%);
+        }
+        &.horror {
+          background: linear-gradient(110.16deg, #13547a 2.37%, #80d0c7 96.77%);
+        }
+        &.comedy {
+          background: linear-gradient(109.93deg, #fff77b 2.37%, #ffbf42 50%);
+        }
+        &.documentary {
+          background: linear-gradient(
+            109.31deg,
+            #1fa2ff 2.4%,
+            #1fa2ff 2.41%,
+            #1f535c 97.46%
+          );
+        }
+
+        a {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          img {
+            width: 80px;
+            height: 80px;
+          }
+          p {
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 20px;
+            color: #ffffff;
+            margin-top: 8px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .genres {
+    .container {
+      padding: 20px 0;
+
+      .genres-list {
+        justify-content: center;
+        gap: 20px;
+
+        .genres-list-item {
+          width: 175px;
+          height: 120px;
+
+          a {
+            img {
+              width: 40px;
+              height: 40px;
+            }
+            p {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .genres {
+    .container {
+      .genres-list {
+        .genres-list-item {
+          width: 160px;
+          height: 100px;
+
+          a {
+            img {
+              width: 40px;
+              height: 40px;
+            }
+            p {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

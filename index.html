@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>M-BOX</title>
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./img/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./img/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./img/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="./img/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marcellus&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <a href="#">
+          <img class="header-logo" src="./img/logo.png" alt="logo"
+        /></a>
+        <div class="burger-menu_button">
+          <span class="burger-menu_lines"></span>
+        </div>
+        <nav class="header-nav">
+          <ul class="header-nav-list">
+            <li class="header-nav-list-item">
+              <a class="active" href="#">Home</a>
+            </li>
+            <li class="header-nav-list-item"><a href="#">TV Shows</a></li>
+            <li class="header-nav-list-item"><a href="#">Movies</a></li>
+            <li class="header-nav-list-item"><a href="#">Series</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-menu">
+          <div class="header-menu-search">
+            <button class="search-button" id="searchButton">
+              <img src="./img/svg/search.svg" alt="search" />
+            </button>
+          </div>
+
+          <div class="header-menu-notification">
+            <button class="notification-button" id="notificationButton">
+              <img src="./img/svg/notification.svg" alt="notification" />
+            </button>
+          </div>
+
+          <div class="header-menu-contact">
+            <button class="contact-button" id="contactButton">
+              <img src="./img/svg/contact.svg" alt="contact" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <h1 class="hero-title">Zack Snyder's Justice League</h1>
+            <ul class="hero-about-list">
+              <li class="hero-about-list-item">2021</li>
+              <li class="hero-about-list-item">18+</li>
+              <li class="hero-about-list-item">4h 2min</li>
+              <li class="hero-about-list-item rating">
+                8.8
+                <img
+                  class="rating-icon"
+                  src="./img/svg/rating.svg"
+                  alt="rating"
+                />
+              </li>
+            </ul>
+            <p class="hero-description">
+              Determined to ensure Superman's ultimate sacrifice was not in
+              vain, Bruce Wayne aligns forces with Diana Prince with plans to
+              recruit a team of metahumans to protect the world from an
+              approaching threat of catastrophic proportions.
+            </p>
+
+            <div class="hero-button-box">
+              <a class="button" href="#"
+                ><img src="./img/svg/watch-icon.svg" alt="Watch" /> Watch</a
+              >
+              <a class="button white" href="#">More information</a>
+            </div>
+          </div>
+        </div>
+        <div class="hero-banner">
+          <img src="./img/hero-section-banner.png" alt="" />
+          <div class="hero-baner__gradient"></div>
+        </div>
+      </section>
+
+      <section class="tv-shows">
+        <div class="container">
+          <div class="section-title-box">
+            <span class="section-title-box-border"></span>
+            <a href="#"
+              ><h2 class="section-title">
+                Trending TV Shows <span>&#10095;</span>
+              </h2></a
+            >
+          </div>
+          <ul class="tv-shows-list">
+            <li class="tv-shows-list-item">
+              <img src="./img/tv-shows/1.png" alt="tv-show" />
+            </li>
+            <li class="tv-shows-list-item">
+              <img src="./img/tv-shows/2.png" alt="tv-show" />
+            </li>
+            <li class="tv-shows-list-item">
+              <img src="./img/tv-shows/3.png" alt="tv-show" />
+            </li>
+            <li class="tv-shows-list-item">
+              <img src="./img/tv-shows/4.png" alt="tv-show" />
+            </li>
+            <li class="tv-shows-list-item">
+              <img src="./img/tv-shows/5.png" alt="tv-show" />
+            </li>
+            <li class="tv-shows-list-item">
+              <img src="./img/tv-shows/6.png" alt="tv-show" />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="movies">
+        <div class="container">
+          <div class="section-title-box">
+            <span class="section-title-box-border"></span>
+            <a href="#"
+              ><h2 class="section-title">
+                Trending Movies <span>&#10095;</span>
+              </h2></a
+            >
+          </div>
+          <ul class="movies-list">
+            <li class="movies-list-item">
+              <img src="./img/movies/1.png" alt="movie" />
+            </li>
+            <li class="movies-list-item">
+              <img src="./img/movies/2.png" alt="movie" />
+            </li>
+            <li class="movies-list-item">
+              <img src="./img/movies/3.png" alt="movie" />
+            </li>
+            <li class="movies-list-item">
+              <img src="./img/movies/4.png" alt="movie" />
+            </li>
+            <li class="movies-list-item">
+              <img src="./img/movies/5.png" alt="movie" />
+            </li>
+            <li class="movies-list-item">
+              <img src="./img/movies/6.png" alt="movie" />
+            </li>
+          </ul>
+
+          <a class="button" href="#">See more</a>
+        </div>
+      </section>
+
+      <section class="genres">
+        <div class="container">
+          <div class="section-title-box">
+            <span class="section-title-box-border"></span>
+            <a href="#"
+              ><h2 class="section-title">
+                Popular Genres <span>&#10095;</span>
+              </h2></a
+            >
+          </div>
+          <ul class="genres-list">
+            <li class="genres-list-item romance">
+              <a href="#">
+                <img src="./img/svg/romance.svg" alt="romance" />
+                <p>Romance</p>
+              </a>
+            </li>
+            <li class="genres-list-item drama">
+              <a href="#">
+                <img src="./img/svg/drama.svg" alt="drama" />
+                <p>Drama</p>
+              </a>
+            </li>
+            <li class="genres-list-item historical">
+              <a href="#">
+                <img src="./img/svg/historical.svg" alt="historical" />
+                <p>Historical</p>
+              </a>
+            </li>
+            <li class="genres-list-item action">
+              <a href="#">
+                <img src="./img/svg/action.svg" alt="action" />
+                <p>Action</p>
+              </a>
+            </li>
+            <li class="genres-list-item sci-fi">
+              <a href="#">
+                <img src="./img/svg/sci-fi.svg" alt="sci-fi" />
+                <p>Sci-fi</p>
+              </a>
+            </li>
+            <li class="genres-list-item horror">
+              <a href="#">
+                <img src="./img/svg/horror.svg" alt="horror" />
+                <p>Horror</p>
+              </a>
+            </li>
+            <li class="genres-list-item comedy">
+              <a href="#">
+                <img src="./img/svg/comedy.svg" alt="comedy" />
+                <p>Comedy</p>
+              </a>
+            </li>
+            <li class="genres-list-item documentary">
+              <a href="#">
+                <img src="./img/svg/documentary.svg" alt="documentary" />
+                <p>Documentary</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="actors">
+        <div class="container">
+          <div class="section-title-box">
+            <span class="section-title-box-border"></span>
+            <a href="#"
+              ><h2 class="section-title">
+                Popular Actors & Directors <span>&#10095;</span>
+              </h2></a
+            >
+          </div>
+
+          <ul class="actors-list">
+            <li class="actors-list-item">
+              <figure>
+                <img src="./img/popular/1.png" alt="person" />
+                <figcaption>Samantha Bowen</figcaption>
+              </figure>
+            </li>
+            <li class="actors-list-item">
+              <figure>
+                <img src="./img/popular/2.png" alt="person" />
+                <figcaption>Rhys Birch</figcaption>
+              </figure>
+            </li>
+            <li class="actors-list-item">
+              <figure>
+                <img src="./img/popular/3.png" alt="person" />
+                <figcaption>James Holloway</figcaption>
+              </figure>
+            </li>
+            <li class="actors-list-item">
+              <figure>
+                <img src="./img/popular/4.png" alt="person" />
+                <figcaption>Joshua Walton</figcaption>
+              </figure>
+            </li>
+            <li class="actors-list-item">
+              <figure>
+                <img src="./img/popular/5.png" alt="person" />
+                <figcaption>Patrick Elliott</figcaption>
+              </figure>
+            </li>
+            <li class="actors-list-item">
+              <figure>
+                <img src="./img/popular/6.png" alt="person" />
+                <figcaption>Morgan O'Neill</figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="banner">
+        <div class="container">
+          <img
+            class="comming-soon"
+            src="./img/coming-soon.png"
+            alt="coming-soon"
+          />
+
+          <div class="register-banner">
+            <p>
+              Are You New Here? <br />
+              Don’t wait, Register Now.
+            </p>
+            <a class="button" href="#">Register Now</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-box">
+          <a href="#">
+            <img class="footer-logo" src="./img/logo.png" alt="logo" />
+          </a>
+
+          <nav class="footer-nav">
+            <ul>
+              <li><a href="#">Voice over and Subtitle</a></li>
+              <li><a href="#">Voice Description</a></li>
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">Gift Cards</a></li>
+              <li><a href="#">Media Center</a></li>
+              <li><a href="#">Investor Relations</a></li>
+              <li><a href="#">Job Opportunities</a></li>
+              <li><a href="#">Terms of Use</a></li>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Legal Provisions</a></li>
+              <li><a href="#">Cookies Preferences</a></li>
+              <li><a href="#">Corporate Informations</a></li>
+              <li><a href="#">Contact us</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
+
+    <div class="preloader">
+      <svg
+        class="preloader__image"
+        role="img"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 512 512"
+      >
+        <path
+          fill="currentColor"
+          d="M304 48c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48zm-48 368c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zm208-208c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zM96 256c0-26.51-21.49-48-48-48S0 229.49 0 256s21.49 48 48 48 48-21.49 48-48zm12.922 99.078c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.491-48-48-48zm294.156 0c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.49-48-48-48zM108.922 60.922c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.491-48-48-48z"
+        ></path>
+      </svg>
+    </div>
+
+    <script type="text/javascript" src="./js/index.js"></script>
+  </body>
+</html>
